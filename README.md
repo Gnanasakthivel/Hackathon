@@ -47,10 +47,36 @@ To build maven project **mvn clean compile install**  or for offline build **mvn
 # Git 
 1. Download git.exe 32 or 64 bits from https://git-scm.com/download/win
 2. Install git.exe
-3. To config git account in your machine.
+3. To config git account in your machine.\
     Set your username:
-        ```git config --global user.name "FIRST_NAME LAST_NAME"```.
+        ```git config --global user.name "FIRST_NAME LAST_NAME"```.\
     Set your email address:
         ```git config --global user.email "MY_NAME@cognizant.com"```.
 4. Please validate the global parameter. Use  this command "git config  --global --list".
 5. Git clone the repo code.
+
+# Git commands
+
+1. Git Clone - Using to download the code from Remote to local location.
+    git clone https://github.com/Gnanasakthivel/Hackathon.git (First we need to enter the username and password details for authentication) 
+2. Git Pull - Used to update or sync the code from remote to our local repository. 
+
+    ```git pull```
+ 
+3. Git Add -Used to add file which are need to commit.
+ 
+    To add file(s) to commit. \
+    ```git add FILE_NAME``` \
+ 
+    To add files to commit.
+    ```git add .```
+ 4. Git commit - used to commit the changes in our local repository.
+ 
+    ```git commit -m "message"```
+   
+ 5. Git Push - used to push the chnages from local to remote repository.
+    
+    ```git push```
+ 
+ 
+ 
