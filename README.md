@@ -22,6 +22,7 @@ https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting
 4. Setup PATH.
     **PATH**=C:\Users\joyfu\apache-maven-3.6.3-bin\apache-maven-3.6.3
 5.Open new command prompt and check the "mvn -version" command
+
 **Output:**
 C:\Users\joyfu>mvn -version
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
@@ -46,5 +47,10 @@ To build maven project **mvn clean compile install**  or for offline build **mvn
 # Git 
 1. Download git.exe 32 or 64 bits from https://git-scm.com/download/win
 2. Install git.exe
-3. Config Git user
-4. Git clone the repo code.
+3. To config git account in your machine.
+    Set your username:
+        ```git config --global user.name "FIRST_NAME LAST_NAME"```.
+    Set your email address:
+        ```git config --global user.email "MY_NAME@cognizant.com"```.
+4. Please validate the global parameter. Use  this command "git config  --global --list".
+5. Git clone the repo code.
