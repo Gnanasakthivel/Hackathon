@@ -31,7 +31,7 @@ Java version: 13.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java
 Default locale: en_GB, platform encoding: Cp1252
 OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 
-To build maven project **mvn clean compile install**  or for offline build **mvn clean compile install -o**
+To build maven project **mvn clean compile install**  or for offline build **mvn clean compile install -o** (we can use this offline build option after success completion of maven build for the first time. we can't use offline option, if we added any new dependencies. Offline build, we will refer to our local machine .m2 repository)
 
 
 # Eclipse
@@ -39,6 +39,14 @@ To build maven project **mvn clean compile install**  or for offline build **mvn
 2. Install eclipse-inst-win64.exe
 3. Choose workspace location
 4. Create new maven project
+
+# Create a maven project in eclipse
+1. Create new Maven Project and Click Next.
+2. Click the checkbox- Create a simple proejct and click ```Next```
+3. Please provide the ```Group ID ``` as ```com.cognizant.aspen.hackathon```` and ```artifact ID``` as ```problem1 or problem name```
+4. Click finish
+
+
 
 # Apache Kafka
 
